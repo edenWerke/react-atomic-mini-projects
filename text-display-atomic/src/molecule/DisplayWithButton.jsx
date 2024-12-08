@@ -10,7 +10,7 @@ function DisplayWithButton() {
   };
 
   return (
-    <div>
+    <div className="display-container">
       <Text content={text} />
       <Button onClick={changeText} label="Change Text" />
     </div>

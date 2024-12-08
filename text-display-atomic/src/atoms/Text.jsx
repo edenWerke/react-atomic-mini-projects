@@ -5,7 +5,7 @@ function Text({ content }) {
     console.error("Invalid content for Text:", content);
     return null; // Prevent rendering if invalid
   }
-  return <p>{content}</p>;
+  return <p className="text">{content}</p>;
 }
 
 export default Text;
