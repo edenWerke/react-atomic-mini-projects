@@ -2,11 +2,11 @@ import { useState } from "react";
 import ToggleSwitch from "../molecules/ToggleSwitch";
 
 const ThemeToggleApp = () => {
-  const [isDarkMode, setIsDarkMode] = useState(false);
+  const [isDarkMode, setIsDarkMode] = useState(true);
 
   const toggleTheme = () => {
     setIsDarkMode(!isDarkMode);
-    document.documentElement.classList.toggle("dark");
+    document.documentElement.classList.toggle("light");
   };
 
   return (
